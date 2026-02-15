@@ -28,30 +28,6 @@ Each entry must follow this structure:
 
 ## Entries
 
-
-### Entry 001
-
-- **Date:** 2026-02-15
-- **Time:** 15:10
-- **Scan type:** ad-hoc
-- **Current focus:** Establish GitHub grounding and sanity structure
-- **What is working:**
-  - GitHub repository created
-  - README established as project authority
-  - Sanity anchor and sanity rules defined
-- **What is broken or unstable:**
-  - Background runtime stability not yet addressed
-  - Audio input pipeline not yet finalised
-- **Recent changes:**
-  - Introduced public GitHub repo as external project memory
-  - Created sanity anchor and rules
-- **Blockers:**
-  - None at this stage
-- **Decision:** continue
-- **Notes:**
-  - Grounding phase in progress
-  - Cognitive load reduced by externalising state
-
 ### Entry 002
 
 - **Date:** 2026-02-15
@@ -82,6 +58,30 @@ Each entry must follow this structure:
 Not currently loaded by merlin_engine.py.
 Identity injection likely removed during runtime refactor.”
 
+
+
+### Entry 001
+
+- **Date:** 2026-02-15
+- **Time:** 15:10
+- **Scan type:** ad-hoc
+- **Current focus:** Establish GitHub grounding and sanity structure
+- **What is working:**
+  - GitHub repository created
+  - README established as project authority
+  - Sanity anchor and sanity rules defined
+- **What is broken or unstable:**
+  - Background runtime stability not yet addressed
+  - Audio input pipeline not yet finalised
+- **Recent changes:**
+  - Introduced public GitHub repo as external project memory
+  - Created sanity anchor and rules
+- **Blockers:**
+  - None at this stage
+- **Decision:** continue
+- **Notes:**
+  - Grounding phase in progress
+  - Cognitive load reduced by externalising state
 
 
 
