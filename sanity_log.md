@@ -76,7 +76,16 @@ Each entry must follow this structure:
 - **Decision:** continue
 - **Notes:**
   - Significant stability milestone achieved
-  - System now behaves consistently across devices
+  - System now behaves consistently across devices...
+ 
+  - “Located legacy Merlin identity definition in config/identity_prompt.txt.
+Not currently loaded by merlin_engine.py.
+Identity injection likely removed during runtime refactor.”
+
+
+
+
+
 ---
 
 
