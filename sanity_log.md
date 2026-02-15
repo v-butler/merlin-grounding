@@ -28,6 +28,7 @@ Each entry must follow this structure:
 
 ## Entries
 
+
 ### Entry 001
 
 - **Date:** 2026-02-15
