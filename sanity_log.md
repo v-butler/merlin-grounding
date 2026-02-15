@@ -51,7 +51,33 @@ Each entry must follow this structure:
   - Grounding phase in progress
   - Cognitive load reduced by externalising state
 
+### Entry 002
+
+- **Date:** 2026-02-15
+- **Time:** 14:48
+- **Scan type:** ad-hoc
+- **Current focus:** Runtime stabilisation and cross-device access
+- **What is working:**
+  - Merlin brain and TTS services running persistently via Windows Scheduled Tasks
+  - Chat UI works on Bob (Chrome)
+  - Chat UI works on iPad (Chrome)
+  - Chat UI works on iPhone (Safari and Chrome)
+  - Safari issues on iPad resolved
+- **What was broken or unstable:**
+  - iPad Safari failed to connect despite working backend
+- **Root cause identified:**
+  - Safari iPad aggressive JS caching / poisoned execution state
+- **Resolution:**
+  - Forced Safari cache purge and JS cache-busting on `chat.js`
+- **Recent changes:**
+  - Replaced hard-coded loopback addresses in frontend
+  - Added cache-busting query to chat.js script include
+- **Decision:** continue
+- **Notes:**
+  - Significant stability milestone achieved
+  - System now behaves consistently across devices
 ---
+
 
 ## Logging Rules
 
